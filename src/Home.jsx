@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-
+import FormVende from './FormVende'
+import FormSponsor from './FormSponsor'
 const Home = () => {
   return (
     <div className='relative'>
@@ -20,16 +21,10 @@ const Home = () => {
 
       <div className='bg-white min-h-[100vh] relative'>
         <img className='w-[250px] absolute right-0 opacity-15' src={require("../src/assets/icons/2.png")} alt="" />
-        <nav className={`px-[3vw] pt-[15px] w-full z-10`}>
-          <div className='flex items-center justify-between w-full pb-3 pt-3' style={{ borderBottom: 'solid black 8px' }}>
-            <img className='sm:w-[250px] w-[100px]' src={require("../src/assets/logo voiturexpo.png")} alt="" />
-            <h1 className='sm:text-xl text-sm text-center text-black font-bold'>21 - 28 janvier 2024<br />Parc d’exposition Agadir</h1>
-          </div>
-        </nav>
 
 
-        <div className='px-[3vw]'>
-          <h1 className='text-red-500 mt-[13vh] text-4xl font-bold border-l-8 border-solid border-black pl-4'>À PROPOS DE <br /> L'ÉVÉNEMENT</h1>
+        <section className='px-[3vw] pt-[8vh]'>
+          <h1 className='mx-auto text-center text-red-500 text-4xl font-bold w-fit'>À PROPOS DE <br /> L'ÉVÉNEMENT</h1>
           <div className='w-full p-12 bg-gray-200 flex items-center sm:flex-row flex-col rounded-xl mb-[10vh] mt-[10vh]'>
             <div className='bg-black min-w-[250px] min-h-[250px] sm:mr-14 mr-0 sm:mb-0 mb-8 flex items-center justify-center'>
               <img className='w-[220px]' src={require("../src/assets/Salon des Voitures d'Occasions d'Agadir معرض السيــــــارات المستعملــــــة بأكاديــــــر.png")} alt="" />
@@ -39,7 +34,7 @@ const Home = () => {
             </p>
           </div>
           <div className='grid gap-[5rem] justify-center sm:grid-cols-repeat grid-cols-1'>
-            <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
+            <div className='bg-[#2d2d2e] text-white rounded-xl py-[20px] px-[100px] flex items-center flex-col'>
               <img className='w-[120px]' src={require("../src/assets/icons/8.png")} alt="" />
               <h2 className='font-bold my-[3vh]'>VENTE</h2>
               <p className='text-center'>Mettez en avant vos véhicules avec notre public engagé, forgez des relations solides</p>
@@ -60,26 +55,13 @@ const Home = () => {
               <p className='text-center'>Notre objectif est de vous offrir une expérience holistique et enrichissante dans le monde de l'automobile d'occasion.</p>
             </div>
           </div>
+        </section>
 
-          {/* <nav className={`px-[3vw] pt-[15px] w-full z-10`}>
-              <div className='flex items-center justify-between w-full pb-3 pt-3' style={{ borderBottom: 'solid black 8px' }}>
-                <img className='w-[250px]' src={require("../src/assets/icons/6.png")} alt="" />
-                  <h1 className='text-xl text-center text-black font-bold'>21 - 28 janvier 2024<br/>Parc d’exposition Agadir</h1>
-              </div>
-            </nav> */}
-        </div>
-
-        <div className='bg-white min-h-[100vh] relative mt-[13vh] pb-[30vh]'>
+        <section className='bg-white relative mt-[13vh] pb-[20vh]'>
           <img className='w-[250px] absolute right-0 opacity-15' src={require("../src/assets/icons/2.png")} alt="" />
-          <nav className={`px-[3vw] pt-[15px] w-full z-10`}>
-            <div className='flex items-center justify-between w-full pb-3 pt-3' style={{ borderBottom: 'solid black 8px' }}>
-              <img className='sm:w-[250px] w-[100px]' src={require("../src/assets/logo voiturexpo.png")} alt="" />
-              <h1 className='sm:text-xl text-sm text-center text-black font-bold'>21 - 28 janvier 2024<br />Parc d’exposition Agadir</h1>
-            </div>
-          </nav>
-          <div className='px-[3vw] text-black'>
-            <h1 className='text-red-500 mt-[13vh] text-4xl font-bold border-l-8 border-solid border-black pl-4'>SERVICES <br /> SUR PLACE</h1>
-            <p className='sm:text-2xl text-md mt-10'>Notre engagement va bien au-delà de la simple présentation de voitures. Au sein de cet événement exceptionnel, nous vous invitons à découvrir une gamme de services soigneusement conçus pour sublimer votre expérience, que vous soyez acheteur, vendeur ou simplement un passionné d'automobile. Plongez dans un univers où l'excellence du service rencontre la passion automobile.
+          <div className='px-[3vw] pt-[8vh] text-black'>
+            <h1 className='text-center text-red-500  text-6xl font-bold '>SERVICES <br /> SUR PLACE</h1>
+            <p className='sm:text-2xl text-md mt-[10vh]'>Notre engagement va bien au-delà de la simple présentation de voitures. Au sein de cet événement exceptionnel, nous vous invitons à découvrir une gamme de services soigneusement conçus pour sublimer votre expérience, que vous soyez acheteur, vendeur ou simplement un passionné d'automobile. Plongez dans un univers où l'excellence du service rencontre la passion automobile.
             </p>
             <div className='w-full py-12 px-[10vw] bg-gray-200 flex flex-col items-center justify-center rounded-xl mt-[10vh]'>
               <div className='flex items-center justify-between w-full'>
@@ -163,18 +145,12 @@ const Home = () => {
             </div>
           </div>
 
-        </div>
+        </section>
 
-        <div className='bg-white min-h-[100vh] relative mt-[13vh] pb-[50vh]'>
+        <section className='bg-white relative mt-[13vh] pb-[20vh]'>
           <img className='w-[250px] absolute right-0 opacity-15' src={require("../src/assets/icons/2.png")} alt="" />
-          <nav className={`px-[3vw] pt-[15px] w-full z-10`}>
-            <div className='flex items-center justify-between w-full pb-3 pt-3' style={{ borderBottom: 'solid black 8px' }}>
-              <img className='sm:w-[250px] w-[100px]' src={require("../src/assets/logo voiturexpo.png")} alt="" />
-              <h1 className='sm:text-xl text-sm text-center text-black font-bold'>21 - 28 janvier 2024<br />Parc d’exposition Agadir</h1>
-            </div>
-          </nav>
-          <div className='px-[3vw] text-black'>
-            <h1 className='text-red-500 mt-[13vh] text-4xl font-bold border-l-8 border-solid border-black pl-4'>PROFIL <br /> DES EXPOSANTS</h1>
+          <div className='px-[3vw] pt-[8vh] text-black'>
+            <h1 className='text-center text-red-500 text-6xl font-bold '>PROFIL <br /> DES EXPOSANTS</h1>
             <p className='sm:text-2xl text-md mt-10'>Le Salon des Voitures d'Occasions d'Agadir, un événement incontournable offrant une diversité répondant à toutes les attentes des passionnés d'automobile, met en avant plusieurs secteurs clés pour enrichir l'expérience des visiteurs.
             </p>
             <div className='grid sm:grid-cols-5 grid-cols-3 gap-y-[10vh] items-center justify-between w-full mt-[10vh]'>
@@ -271,29 +247,13 @@ const Home = () => {
                 <div className='px-5 py-2 sm:text-[1rem] text-xs bg-gray-200'>Tapisserie</div>
               </div>
             </div>
-            {/* <div className='grid grid-cols-5 items-center justify-between w-full mt-[10vh]'>
-              
-            </div>
-            <div className='grid grid-cols-5 items-center justify-between w-full mt-[10vh]'>
-              
-            </div>
-            <div className='grid grid-cols-5 items-center justify-between w-full mt-[10vh]'>
-              
-            </div> */}
           </div>
-        </div>
-        <div className='bg-white min-h-[100vh] relative mt-[13vh] pb-[50vh]'>
+        </section>
+        <section className='bg-white relative mt-[13vh] pb-[20vh]'>
           <img className='w-[250px] absolute right-0 opacity-15' src={require("../src/assets/icons/2.png")} alt="" />
-          <nav className={`px-[3vw] pt-[15px] w-full z-10`}>
-            <div className='flex items-center justify-between w-full pb-3 pt-3' style={{ borderBottom: 'solid black 8px' }}>
-              <img className='sm:w-[250px] w-[100px]' src={require("../src/assets/logo voiturexpo.png")} alt="" />
-              <h1 className='sm:text-xl text-sm text-center text-black font-bold'>21 - 28 janvier 2024<br />Parc d’exposition Agadir</h1>
-            </div>
-          </nav>
 
-
-          <div className='px-[3vw]'>
-            <h1 className='text-red-500 mt-[13vh] text-4xl font-bold border-l-8 border-solid border-black pl-4'>POURQUOI<br /> EXPOSER ?</h1>
+          <div className='px-[3vw] pt-[8vh]'>
+            <h1 className='text-center text-red-500 text-6xl font-bold'>POURQUOI<br /> EXPOSER ?</h1>
             <div className='grid gap-[5rem] justify-center sm:grid-cols-repeat grid-cols-1 mb-[10vh] mt-[10vh]'>
               <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
                 <img className='w-[120px]' src={require("../src/assets/Pourquoi exposer/7.png")} alt="" />
@@ -329,8 +289,13 @@ const Home = () => {
             </div>
           </div>
 
-        </div>
+        </section>
+        <FormVende />
+        <FormSponsor/>
+
       </div>
+
+
       <div className='relative w-full h-[100vh]'>
         <img className='sm:w-[250px] w-[150px] absolute right-0' src={require("../src/assets/icons/1.png")} alt="" />
 

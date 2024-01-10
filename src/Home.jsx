@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import FormVende from './FormVende'
 import FormSponsor from './FormSponsor'
+
+
 const Home = () => {
   return (
     <div className='relative'>
@@ -11,7 +13,7 @@ const Home = () => {
         <h1 className='text-3xl text-center mt-5'>معرض السيــــــارات المستعملــــــة بأكاديــــــر</h1>
         <h1 className='text-3xl text-center mt-5'>Salon des Voitures d'Occasions d'Agadir</h1>
         <img className='sm:w-[600px] w-[80%] mx-auto pt-[100px]' src={require("../src/assets/car.PNG")} alt="" />
-        <h1 className='text-xl text-center mt-5'>Du 21 au 28 Janvier 2024 <br /> Parc d’exposition Agadir</h1>
+        <h1 className='text-3xl text-center mt-5'>Du 21 au 28 Janvier 2024 <br /> Parc d’exposition Agadir</h1>
         <div className='w-full flex items-center justify-between mt-[8vh]'>
           <h1 className='sm:text-xl text-xs text-center mt-5'>05 25 16 46 64 <br /> http://www.voiturexpo.ma/</h1>
           <img className='sm:w-[200px] w-[100px]' src={require("../src/assets/icons/7.png")} alt="" />
@@ -24,7 +26,7 @@ const Home = () => {
 
 
         <section className='px-[3vw] pt-[8vh]'>
-          <h1 className='mx-auto text-center text-red-500 text-4xl font-bold w-fit'>À PROPOS DE <br /> L'ÉVÉNEMENT</h1>
+          <h1 className='mx-auto text-center text-red-500 text-6xl font-bold w-fit'>À PROPOS DE <br /> L'ÉVÉNEMENT</h1>
           <div className='w-full p-12 bg-gray-200 flex items-center sm:flex-row flex-col rounded-xl mb-[10vh] mt-[10vh]'>
             <div className='bg-black min-w-[250px] min-h-[250px] sm:mr-14 mr-0 sm:mb-0 mb-8 flex items-center justify-center'>
               <img className='w-[220px]' src={require("../src/assets/Salon des Voitures d'Occasions d'Agadir معرض السيــــــارات المستعملــــــة بأكاديــــــر.png")} alt="" />
@@ -292,6 +294,14 @@ const Home = () => {
         </section>
         <FormVende />
         <FormSponsor/>
+        
+        
+        <section className='px-[3vw] py-[8vh]'>
+            <h1 className='mx-auto text-center text-red-500 text-6xl font-bold w-fit'>Rendez Nous<br /> Visite</h1>
+          <div className='w-full p-12 min-[100vh]: bg-gray-200 flex items-center sm:flex-row flex-col rounded-xl mb-[10vh] mt-[10vh]'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.8893498128555!2d-9.538354599999998!3d30.4108811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c9d3725a9d29%3A0xd2e9ec1805ca9c21!2sExpo%20Agadir!5e0!3m2!1sfr!2sma!4v1704927473579!5m2!1sfr!2sma" style={{border:0, width: '100%', height: '600px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
 
       </div>
 

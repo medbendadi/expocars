@@ -36,7 +36,7 @@ const App = () => {
 
 
          <section className='px-[3vw] py-[8vh]'>
-            <h1 className='mx-auto text-center text-red-500 text-4xl font-bold w-fit'>Vender Votre<br /> Voiture</h1>
+            <h1 className='mx-auto text-center text-red-500 text-6xl font-bold w-fit'>Vender Votre<br /> Voiture</h1>
             <div className='w-full p-12 min-[100vh]: bg-gray-200 flex items-center sm:flex-row flex-col rounded-xl mb-[10vh] mt-[10vh]'>
                <form className="sm:w-1/2 w-full mx-auto" onSubmit={onSubmit}>
 

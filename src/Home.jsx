@@ -15,7 +15,7 @@ const Home = () => {
         <img className='sm:w-[600px] w-[80%] mx-auto pt-[100px]' src={require("../src/assets/car.PNG")} alt="" />
         <h1 className='text-3xl text-center mt-5'>Du 21 au 28 Janvier 2024 <br /> Parc d’exposition Agadir</h1>
         <div className='w-full flex items-center justify-between mt-[8vh]'>
-          <h1 className='sm:text-xl text-xs text-center mt-5'>05 25 16 46 64 <br /> http://www.voiturexpo.ma/</h1>
+          <h1 className='sm:text-xl text-xs text-center mt-5'>05 25 16 46 64 <br />voiturexpo.ma</h1>
           <img className='sm:w-[200px] w-[100px]' src={require("../src/assets/icons/7.png")} alt="" />
         </div>
       </div>
@@ -152,7 +152,7 @@ const Home = () => {
         <section className='bg-white relative mt-[13vh] pb-[20vh]'>
           <img className='w-[250px] absolute right-0 opacity-15' src={require("../src/assets/icons/2.png")} alt="" />
           <div className='px-[3vw] pt-[8vh] text-black'>
-            <h1 className='text-center text-red-500 text-6xl font-bold '>PROFIL <br /> DES EXPOSANTS</h1>
+            <h1 className='text-center text-red-500 text-6xl font-bold '>PROFIL DES<br />EXPOSANTS</h1>
             <p className='sm:text-2xl text-md mt-10'>Le Salon des Voitures d'Occasions d'Agadir, un événement incontournable offrant une diversité répondant à toutes les attentes des passionnés d'automobile, met en avant plusieurs secteurs clés pour enrichir l'expérience des visiteurs.
             </p>
             <div className='grid sm:grid-cols-5 grid-cols-3 gap-y-[10vh] items-center justify-between w-full mt-[10vh]'>
@@ -259,32 +259,32 @@ const Home = () => {
             <div className='grid gap-[5rem] justify-center sm:grid-cols-repeat grid-cols-1 mb-[10vh] mt-[10vh]'>
               <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
                 <img className='w-[120px]' src={require("../src/assets/Pourquoi exposer/7.png")} alt="" />
-                <h2 className='font-bold my-[3vh]'>DÉVELOPPER VOTRE RÉSEAU</h2>
+                <h2 className='font-bold my-[3vh] text-center'>DÉVELOPPER VOTRE RÉSEAU</h2>
                 <p className='text-center'>Avec un événement niche, vous aurez recours à divers prestataires à forte valeur ajoutée qui vous permettra de développer votre business</p>
               </div>
               <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
                 <img className='w-[120px]' src={require("../src/assets/Pourquoi exposer/8.png")} alt="" />
-                <h2 className='font-bold my-[3vh]'>PROSPECTER EN TEMPS-RÉEL</h2>
+                <h2 className='font-bold my-[3vh] text-center'>PROSPECTER EN TEMPS-RÉEL</h2>
                 <p className='text-center'>Les réalités du marché sont en perpétuel changement, un aspect où le Salon vous assiste pour mieux informer vos prises de décision</p>
               </div>
               <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
                 <img className='w-[120px]' src={require("../src/assets/Pourquoi exposer/9.png")} alt="" />
-                <h2 className='font-bold my-[3vh]'>FAVORISER VOTRE VISIBILITÉ</h2>
+                <h2 className='font-bold my-[3vh] text-center'>FAVORISER VOTRE VISIBILITÉ</h2>
                 <p className='text-center'>Le salon vous accorde un taux de visibilité accrue, qui s'amortisse dans le temps par une facilité d'accès au divers marchés.</p>
               </div>
               <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
                 <img className='w-[120px]' src={require("../src/assets/Pourquoi exposer/10.png")} alt="" />
-                <h2 className='font-bold my-[3vh]'>STIMULER VOTRE ÉQUIPE</h2>
+                <h2 className='font-bold my-[3vh] text-center'>STIMULER VOTRE ÉQUIPE</h2>
                 <p className='text-center'>Engagez vos employés comme ambassadeurs pour stimuler la performance et la motivation en interne.</p>
               </div>
               <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
                 <img className='w-[120px]' src={require("../src/assets/Pourquoi exposer/11.png")} alt="" />
-                <h2 className='font-bold my-[3vh]'>ACCROÎTRE VOS VENTES</h2>
+                <h2 className='font-bold my-[3vh] text-center'>ACCROÎTRE VOS VENTES</h2>
                 <p className='text-center'>Une mise en relation directe avec vos prospects, favorise l'achat des produits/services et justifie une hausse, forte probable, de votre capital client.</p>
               </div>
               <div className='bg-[#2d2d2e] text-white rounded-xl py-[25px] px-[100px] flex items-center flex-col'>
                 <img className='w-[120px]' src={require("../src/assets/Pourquoi exposer/12.png")} alt="" />
-                <h2 className='font-bold my-[3vh]'>SE POSITIONNER SUR LE MARCHÉ</h2>
+                <h2 className='font-bold my-[3vh] text-center'>SE POSITIONNER SUR LE MARCHÉ</h2>
                 <p className='text-center'>Le contact direct avec le client renforce votre image de marque, booste vos commandes et renforce votre position sur le marché.</p>
               </div>
 

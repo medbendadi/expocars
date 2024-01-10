@@ -63,7 +63,7 @@ const Home = () => {
           <img className='w-[250px] absolute right-0 opacity-15' src={require("../src/assets/icons/2.png")} alt="" />
           <div className='px-[3vw] pt-[8vh] text-black'>
             <h1 className='text-center text-red-500  text-6xl font-bold '>SERVICES <br /> SUR PLACE</h1>
-            <p className='sm:text-2xl text-md mt-[10vh]'>Notre engagement va bien au-delà de la simple présentation de voitures. Au sein de cet événement exceptionnel, nous vous invitons à découvrir une gamme de services soigneusement conçus pour sublimer votre expérience, que vous soyez acheteur, vendeur ou simplement un passionné d'automobile. Plongez dans un univers où l'excellence du service rencontre la passion automobile.
+            <p className='sm:text-2xl text-md mt-[10vh] sm:text-left text-center'>Notre engagement va bien au-delà de la simple présentation de voitures. Au sein de cet événement exceptionnel, nous vous invitons à découvrir une gamme de services soigneusement conçus pour sublimer votre expérience, que vous soyez acheteur, vendeur ou simplement un passionné d'automobile. Plongez dans un univers où l'excellence du service rencontre la passion automobile.
             </p>
             <div className='w-full py-12 px-[10vw] bg-gray-200 flex flex-col items-center justify-center rounded-xl mt-[10vh]'>
               <div className='flex items-center justify-between w-full'>
@@ -153,7 +153,7 @@ const Home = () => {
           <img className='w-[250px] absolute right-0 opacity-15' src={require("../src/assets/icons/2.png")} alt="" />
           <div className='px-[3vw] pt-[8vh] text-black'>
             <h1 className='text-center text-red-500 text-6xl font-bold '>PROFIL DES<br />EXPOSANTS</h1>
-            <p className='sm:text-2xl text-md mt-10'>Le Salon des Voitures d'Occasions d'Agadir, un événement incontournable offrant une diversité répondant à toutes les attentes des passionnés d'automobile, met en avant plusieurs secteurs clés pour enrichir l'expérience des visiteurs.
+            <p className='sm:text-2xl sm:text-left text-center text-md mt-10'>Le Salon des Voitures d'Occasions d'Agadir, un événement incontournable offrant une diversité répondant à toutes les attentes des passionnés d'automobile, met en avant plusieurs secteurs clés pour enrichir l'expérience des visiteurs.
             </p>
             <div className='grid sm:grid-cols-5 grid-cols-3 gap-y-[10vh] items-center justify-between w-full mt-[10vh]'>
               <div className='text-center font-bold flex items-center flex-col'>

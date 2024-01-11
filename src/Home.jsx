@@ -299,7 +299,7 @@ const Home = () => {
         <section className='px-[3vw] py-[8vh]'>
             <h1 className='mx-auto text-center text-red-500 text-6xl font-bold w-fit'>Rendez Nous<br /> Visite</h1>
           <div className='w-full sm:p-12 p-5 min-[100vh]: bg-gray-200 flex items-center sm:flex-row flex-col rounded-xl mb-[10vh] mt-[10vh]'>
-          <iframe className='sm:h-[600px] h-[400px] ' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.8893498128555!2d-9.538354599999998!3d30.4108811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c9d3725a9d29%3A0xd2e9ec1805ca9c21!2sExpo%20Agadir!5e0!3m2!1sfr!2sma!4v1704927473579!5m2!1sfr!2sma" style={{border:0, width: '100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe className='sm:h-[600px] h-[400px] ' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.8893498128555!2d-9.538354599999998!3d30.4108811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c9d3725a9d29%3A0xd2e9ec1805ca9c21!2sExpo%20Agadir!5e0!3m2!1sfr!2sma!4v1704927473579!5m2!1sfr!2sma" style={{border:0, width: '100%'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 
